@@ -2,11 +2,9 @@
 package inheritance.expcopy;
 
 import java.util.*;
-
 class Course {
     String courseTitle;
     int time;
-
     Course(String title, int time) {
         this.courseTitle = title;
         this.time = time;
@@ -117,3 +115,4 @@ public class InheritanceCopy_4 {
         of.freeLab();
     }
 }
+
